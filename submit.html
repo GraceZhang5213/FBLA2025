@@ -6,7 +6,19 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="submit.html">Report</a></li>
+      <li><a href="inquiry.html">Inquiries</a></li>
+      <li><a href="search.html">Search</a></li>
+    </ul>
     <form action="results.html" method="GET">
+      <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" required>
+      <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name" required>
+      <label for="which-item">Are you reporting a lost item or a found item?</label>
+        <input type="radio" name="which-item" id="which-item" required>
       
     </form>
   </body>
