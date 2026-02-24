@@ -24,8 +24,6 @@ ul li a {
 }
 
 form {
-  background-color: #cccccc;
-  border-radius: 5px;
   margin: 30px auto;
   max-width: 70%;
   padding: 30px;
@@ -69,7 +67,7 @@ input[type=number] {
 
 input[type=file] {
   font-size: 25px;
-  margin: 10px 0;
+  margin: 5px 0;
   padding: 15px;
   width: 25%;
 }
