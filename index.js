@@ -15,7 +15,7 @@ searchInput.addEventListener("input", (e) => {
       return items.name.includes(value)
     }))
   } else {
-
+    clearList()
   }
 }
 
@@ -33,3 +33,13 @@ function itemList(results) {
     list.appendChild(resultItem)
   }
 }
+
+function clearList() {
+  while (list.firstChild){
+    list.removeChild(list.firstChild)
+  }
+}
+
+clearButton.addEventListener("click", () => {
+  clearList()
+})
