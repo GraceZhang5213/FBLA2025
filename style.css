@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -11,10 +16,52 @@ ul li a {
   text-decoration: none;
   display: block;
   padding: 1rem;
-  border-radius: 0px;
   border-style: none;
   color: white;
   font-family: Urbanist;
   font-size: 25px;
   font-weight: bold;
+}
+
+input[type=text] {
+  border-color:#fc4b42;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  font-size: 25px;
+  margin: 10px 0;
+  padding: 15px;
+  width: 100%;
+}
+
+input[type=email] {
+  border-color:#fc4b42;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  font-size: 25px;
+  margin: 10px 0;
+  padding: 15px;
+  width: 100%;
+}
+
+input[type=number] {
+  border-color:#fc4b42;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  font-size: 25px;
+  margin: 10px 0;
+  padding: 15px;
+  width: 100%;
+}
+
+input[type=file] {
+  font-size: 25px;
+  margin: 10px 0;
+  padding: 15px;
+  width: 25%;
 }
