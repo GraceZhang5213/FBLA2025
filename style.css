@@ -23,6 +23,14 @@ ul li a {
   font-weight: bold;
 }
 
+form {
+  background-color: #cccccc;
+  border-radius: 5px;
+  margin: 30px auto;
+  max-width: 70%;
+  padding: 30px;
+}
+
 input[type=text] {
   border-color:#fc4b42;
   border-radius: 5px;
