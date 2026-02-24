@@ -18,6 +18,10 @@ h3 {
   margin: 0.25rem 1rem;
 }
 
+ol {
+  margin: 0.25rem 1rem;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -37,6 +41,10 @@ ul li a {
   font-size: 25px;
   font-weight: bold;
 }
+
+li {
+  margin-top: 0.25rem;
+  font-size: 1rem;
 
 form {
   margin: 30px auto;
