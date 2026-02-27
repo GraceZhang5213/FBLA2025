@@ -18,6 +18,15 @@ h3 {
   margin: 0.25rem 1rem;
 }
 
+h4 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+
 ol {
   margin: 0.25rem 1rem;
 }
