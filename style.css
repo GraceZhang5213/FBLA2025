@@ -38,7 +38,7 @@ ul li a {
   border-style: none;
   color: white;
   font-family: Urbanist;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -48,9 +48,9 @@ li {
 }
 
 form {
-  margin: 30px auto;
+  margin: 2rem auto;
   max-width: 70%;
-  padding: 30px;
+  padding: 2rem;
 }
 
 input[type=text] {
@@ -59,9 +59,9 @@ input[type=text] {
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
-  font-size: 25px;
-  margin: 10px 0;
-  padding: 15px;
+  font-size: 1.5rem;
+  margin: 0.75rem 0;
+  padding: 1rem;
   width: 100%;
 }
 
@@ -71,9 +71,9 @@ input[type=email] {
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
-  font-size: 25px;
-  margin: 10px 0;
-  padding: 15px;
+  font-size: 1.5rem;
+  margin: 0.75rem 0;
+  padding: 1rem;
   width: 100%;
 }
 
@@ -83,17 +83,24 @@ input[type=number] {
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
-  font-size: 25px;
-  margin: 10px 0;
-  padding: 15px;
+  font-size: 1.5rem;
+  margin: 0.75rem 0;
+  padding: 1rem;
   width: 100%;
 }
 
 input[type=file] {
   font-size: 25px;
-  margin: 5px 0;
-  padding: 15px;
+  margin: 0.25px 0;
+  padding: 1rem;
   width: 25%;
+}
+
+input[type=submit] {
+  font-size: 1.5rem;
+  margin: 0.75rem 0;
+  padding: 1rem;
+  width: 20%;
 }
 
 textarea {
