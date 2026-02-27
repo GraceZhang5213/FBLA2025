@@ -42,7 +42,6 @@ ul li a {
   padding: 1rem;
   border-style: none;
   color: white;
-  font-family: Urbanist;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -106,6 +105,9 @@ input[type=submit] {
   margin: 0.75rem 0;
   padding: 1rem;
   width: 20%;
+  background-color: #bf1004;
+  border-color: #bf1004;
+  color: white;
 }
 
 textarea {
